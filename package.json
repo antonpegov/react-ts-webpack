@@ -1,10 +1,13 @@
 {
   "name": "react-ts-webpack",
   "version": "0.0.1",
-  "description": "My amaizing starter for React apps",
+  "description": "My amaizing starter for React typescript apps",
   "main": "index.js",
   "author": "Anton Pegov <antonpegov@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
   "dependencies": {
     "koa": "^2.5.3",
     "react": "^16.5.2",
