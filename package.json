@@ -1,0 +1,8 @@
+{
+  "name": "react-ts-webpack",
+  "version": "0.0.1",
+  "description": "My amaizing starter for React apps",
+  "main": "index.js",
+  "author": "Anton Pegov <antonpegov@gmail.com>",
+  "license": "MIT"
+}
