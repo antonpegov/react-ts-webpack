@@ -6,7 +6,11 @@ interface IProps {
    bundler: string
 }
 export class Hello extends React.Component<IProps, {}> {
-   render() {
-   return <h3>This is a <i>{this.props.framework}</i> application using <i>{this.props.compiler}</i> with <i>{this.props.bundler}</i></h3>
-   }
+  render() { 
+    return ( 
+      <>
+      <h3>This is a <i>{this.props.framework}</i> application using <i>{this.props.compiler}</i> with <i>{this.props.bundler}</i></h3>
+      <p>Test Paragraph</p>
+      </>
+    )}
 }
